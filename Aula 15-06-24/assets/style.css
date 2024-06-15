@@ -1,0 +1,4 @@
+.espaço-do-site{
+    display: flex;
+    justify-content: space-between;
+}
