@@ -2,3 +2,19 @@
     display: flex;
     justify-content: space-between;
 }
+
+
+.linha-para-decorar{
+    display: flex; 
+    gap: ;   
+}
+
+.center-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    text-align: center;
+}
+
+

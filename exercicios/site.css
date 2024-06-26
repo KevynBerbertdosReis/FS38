@@ -1,0 +1,32 @@
+.imagem-capa{
+    width: fit-content; 
+    height: fi;
+    padding: 0;
+    
+}
+.batata{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.border-redonda{
+    border-radius:30px;
+    width:500px;
+    border: 2px solid;
+    padding: 10px;
+    box-shadow: 0px 0px 80px  rgb(142, 2, 207);
+}
+
+.border-redonda:hover{
+    box-shadow: 0px 0px 80px  rgb(0, 60, 255);
+    width: 600px;
+}
+
+.border-redonda:active{
+    box-shadow: 0px 20px 30px rgb(54, 20, 117)
+}
+
+.text-color{
+    color: rgb(250, 114, 2);
+}
