@@ -1,0 +1,63 @@
+.body{
+    width: 580px;
+    margin: auto;
+   
+}
+
+
+
+
+.bloco1{
+    background-color: aqua;
+    height: 450px;
+    position: relative;
+    display: flex;
+    justify-content: space-between; 
+
+}
+
+
+.logo{
+    background-color: rgb(102, 4, 214);
+    border: 20x;
+    border-color: rgb(6, 248, 38);
+    width: 80px;
+    margin-left: 15px;
+}
+
+.menu{
+    background-color: black;
+    border: 40px;
+    color: wheat;
+    width: 80px;
+    
+}
+
+.bloco2{
+    background-color: chocolate;
+    margin: 0 auto;
+    height: 350px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    & .account{
+        margin-bottom: 12px;
+    }
+}
+
+.grafico{
+    border-color: blue;
+    border: 100px;
+    background-color: transparent;
+
+}
+
+.bloco4{
+    background-color: yellow;
+    height: 200px;
+}
+
+
+
+
+
