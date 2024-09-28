@@ -1,63 +1,105 @@
-.body{
+.body {
     width: 580px;
     margin: auto;
-   
+
 }
 
 
 
 
-.bloco1{
+.bloco1 {
     background-color: aqua;
-    height: 450px;
+    height: 70px;
     position: relative;
     display: flex;
-    justify-content: space-between; 
+    justify-content: space-between;
 
 }
 
 
-.logo{
+.logo {
     background-color: rgb(102, 4, 214);
     border: 20x;
     border-color: rgb(6, 248, 38);
     width: 80px;
     margin-left: 15px;
+    margin-top: 32px;
+    margin-bottom: auto;
+    font-family: "Josefin Sans", sans-serif;
 }
 
-.menu{
+.menu {
     background-color: black;
     border: 40px;
     color: wheat;
     width: 80px;
-    
+    margin-top: 32px;
+    margin-right: 15px;
+    margin-bottom: auto;
+
 }
 
-.bloco2{
+.bloco2 {
     background-color: chocolate;
     margin: 0 auto;
     height: 350px;
     display: flex;
     flex-flow: column;
     align-items: center;
-    & .account{
-        margin-bottom: 12px;
+
+    & .account {
+        margin-bottom: 16px;
+        background-color: chartreuse;
     }
+
+    & .title {
+        background-color: cornsilk;
+        margin-bottom: 16px;
+    }
+
+    & .email{
+        background-color: darkorange;
+        margin-top: 16px;
+    }
+
 }
 
-.grafico{
+.grafico {
     border-color: blue;
     border: 100px;
     background-color: transparent;
 
 }
 
-.bloco4{
+.bloco4 {
     background-color: yellow;
     height: 200px;
+    margin-top: 62.71px;
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+    & .trusted{
+        margin-bottom: 16px;
+    }
+    & .hubspot{
+        display: flex;
+        flex-flow: row;
+    }
 }
 
 
 
 
 
+
+
+/*class="paragraph"
+
+
+.paragraph{
+    background-color: darkgreen;
+
+    class="hubspot"
+
+    
+}*/
